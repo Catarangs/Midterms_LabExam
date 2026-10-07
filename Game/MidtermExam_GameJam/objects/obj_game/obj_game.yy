@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"par_collide",
-  "eventList":[],
+  "%Name":"obj_game",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"par_collide",
+  "name":"obj_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"manager",
+    "path":"folders/Objects/manager.yy",
   },
   "parentObjectId":null,
   "persistent":false,
