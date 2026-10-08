@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sensor",
+  "%Name":"obj_platform",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sensor",
+  "name":"obj_platform",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
