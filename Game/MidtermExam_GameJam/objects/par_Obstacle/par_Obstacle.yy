@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obstacle1",
-  "eventList":[],
+  "%Name":"par_Obstacle",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_obstacle1",
+  "name":"par_Obstacle",
   "overriddenProperties":[],
   "parent":{
     "name":"obstacles",
     "path":"folders/Objects/obstacles.yy",
   },
-  "parentObjectId":{
-    "name":"par_Obstacle",
-    "path":"objects/par_Obstacle/par_Obstacle.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_obstacle1",
-    "path":"sprites/spr_obstacle1/spr_obstacle1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

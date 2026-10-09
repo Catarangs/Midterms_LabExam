@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
   "%Name":"obj_obstacle2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_obstacle2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obstacles",
+    "path":"folders/Objects/obstacles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_Obstacle",
+    "path":"objects/par_Obstacle/par_Obstacle.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
