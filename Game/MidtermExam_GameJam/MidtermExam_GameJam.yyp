@@ -30,6 +30,7 @@
   },
   "name":"MidtermExam_GameJam",
   "resources":[
+    {"id":{"name":"obj_BirdObstacle","path":"objects/obj_BirdObstacle/obj_BirdObstacle.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},},
@@ -49,7 +50,9 @@
     {"id":{"name":"Slide","path":"sounds/Slide/Slide.yy",},},
     {"id":{"name":"Stagger","path":"sounds/Stagger/Stagger.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_BirdObstacle","path":"sprites/spr_BirdObstacle/spr_BirdObstacle.yy",},},
     {"id":{"name":"spr_obstacle","path":"sprites/spr_obstacle/spr_obstacle.yy",},},
+    {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},},
     {"id":{"name":"spr_Player_duck","path":"sprites/spr_Player_duck/spr_Player_duck.yy",},},
     {"id":{"name":"spr_Player_jump","path":"sprites/spr_Player_jump/spr_Player_jump.yy",},},
     {"id":{"name":"spr_Player_run","path":"sprites/spr_Player_run/spr_Player_run.yy",},},
