@@ -5,6 +5,7 @@ scr_ground_check();
 scr_platform_check();
 scr_collisionCheck();
 scr_setSprite();
+scr_knockback()
 
 if (x < -32) {
     global.game_over = true;

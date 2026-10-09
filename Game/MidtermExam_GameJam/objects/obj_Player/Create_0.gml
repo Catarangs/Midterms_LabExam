@@ -8,11 +8,13 @@ grav = 0.8
 jump_Spd = 14
 v_spd = 0
 termVelocity = 16
+sprint_speed=0
 
 //status
 jumping = false
 falling = false
 ducking = false
+sprinting = false
 
 //chase system
 home_x = x

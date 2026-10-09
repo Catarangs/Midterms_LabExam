@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_knockback",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_knockback",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Script/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
