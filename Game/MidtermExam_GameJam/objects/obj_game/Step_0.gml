@@ -9,8 +9,8 @@ if (global.leaving){
 	global.fade = min(global.fade + 0.04, 1)
 	if (global.fade >= 1){
 		global.zone_end += 100
-		var nr = room_next(room)
-		if (nr == -1) nr = room_first
+		var nr = room_next(Room2)
+		if (nr == -1) nr = Room2
 		room_goto(nr)
 	}
 }

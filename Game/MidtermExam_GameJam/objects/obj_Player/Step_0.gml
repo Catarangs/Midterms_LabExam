@@ -9,3 +9,4 @@ scr_setSprite();
 if (x < -32) {
     global.game_over = true;
 }
+
