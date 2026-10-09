@@ -9,12 +9,12 @@
     {"name":"inst_4846C8F9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_25EBE543","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_43F9443F","path":"rooms/Room1/Room1.yy",},
-<<<<<<< Updated upstream
+
     {"name":"inst_53D3BEA6","path":"rooms/Room1/Room1.yy",},
-=======
+
     {"name":"inst_256012EC","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_83BA905","path":"rooms/Room1/Room1.yy",},
->>>>>>> Stashed changes
+
   ],
   "isDnd":false,
   "layers":[
