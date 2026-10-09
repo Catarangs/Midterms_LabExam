@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obstacle",
+  "%Name":"obj_obstacle2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_obstacle",
+  "name":"obj_obstacle2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obstacle",
-    "path":"sprites/spr_obstacle/spr_obstacle.yy",
+    "name":"spr_Obstacle2",
+    "path":"sprites/spr_Obstacle2/spr_Obstacle2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
