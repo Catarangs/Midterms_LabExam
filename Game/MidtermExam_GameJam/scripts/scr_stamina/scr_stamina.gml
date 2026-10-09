@@ -1,6 +1,5 @@
 function scr_stamina() {
-	
-	// stamina spamming prevention kineme
+
     if (stamina <= 0) {
         can_dash = false;
     }
@@ -10,12 +9,13 @@ function scr_stamina() {
     }
 
     if (!can_dash) {
-
         is_dashing = false;
         if (stamina >= stamina_max && !stamina_key) {
             can_dash = true;
         }
-    } else {
+    } 
+
+    else {
         if (stamina_key && !ducking) {
             is_dashing = true;
             stamina = max(0, stamina - stamina_drain);
@@ -28,5 +28,9 @@ function scr_stamina() {
         stamina_boost = min(stamina_boost + 0.1, boost_max);
     } else {
         stamina_boost = max(stamina_boost - 0.1, 0);
+    }
+
+    if (is_dashing && x < home_x && x_spd >= 0) {
+        recover_spd = min(recover_spd + 0.02, 2);
     }
 }

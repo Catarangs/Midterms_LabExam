@@ -12,6 +12,12 @@ if (!global.game_over && !global.leaving){
     global.distance += effective_spd / 64;
 }
 
+// 2. Play death sound EXACTLY ONCE on Game Over
+if (global.game_over && !played_death_sound) {
+    audio_play_sound(deathsound, 1, false);
+    played_death_sound = true;
+}
+
 if (global.leaving){
     global.fade = min(global.fade + 0.04, 1);
     
@@ -22,6 +28,8 @@ if (global.leaving){
             global.game_over = false;
             global.restarting = false;
             global.leaving = false; 
+            
+            played_death_sound = false; 
             
             room_goto(room_first);
         }
