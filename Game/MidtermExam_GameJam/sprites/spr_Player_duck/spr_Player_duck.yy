@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_Player_duck",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":59,
   "bbox_left":7,
   "bbox_right":55,
-  "bbox_top":25,
+  "bbox_top":48,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_stamina",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_stamina",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Script/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

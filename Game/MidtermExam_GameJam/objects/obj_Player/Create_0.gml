@@ -21,3 +21,15 @@ home_x = x
 x_spd = 0
 recover_spd = 0
 hurt_timer = 0
+
+// stamina system
+stamina_max = 100
+stamina = stamina_max
+stamina_drain = 2
+stamina_recharge = 0.4
+can_dash = true;
+
+// stamina boost modifier
+stamina_boost = 0
+boost_max = 2
+is_dashing = false
