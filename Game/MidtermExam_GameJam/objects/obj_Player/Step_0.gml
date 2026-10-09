@@ -10,7 +10,7 @@ scr_knockback();
 
 
 //Originally -32 but -0 matches the fog collision of the player (change when needed)
-if (x < -0) {
+if (x < -32) {
     global.game_over = true;
 }
 

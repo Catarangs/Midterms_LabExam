@@ -1,4 +1,3 @@
-mask_index = spr_Player_run
 while (!place_meeting(x, y + 1, obj_wall) && y < room_height){
 	y += 1
 }
