@@ -7,7 +7,9 @@ scr_collisionCheck();
 scr_setSprite();
 scr_knockback()
 
-if (x < -32) {
+
+//Originally -32 but -0 matches the fog collision of the player (change when needed)
+if (x < -0) {
     global.game_over = true;
 }
 
