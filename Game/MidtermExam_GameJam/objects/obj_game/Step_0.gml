@@ -8,7 +8,7 @@ if (layer_exists("Background")) {
 }
 
 if (!global.game_over && !global.leaving){
-    global.scroll_spd = min(global.scroll_spd + 0.0004, 14);
+    global.scroll_spd = min(global.scroll_spd + 0.0003, 14);
     global.distance += effective_spd / 64;
 }
 
