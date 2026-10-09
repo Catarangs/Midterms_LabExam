@@ -31,6 +31,6 @@ function scr_stamina() {
     }
 
     if (is_dashing && x < home_x && x_spd >= 0) {
-        recover_spd = min(recover_spd + 0.05, 2.5);
+        recover_spd = min(recover_spd + 0.02, 2);
     }
 }

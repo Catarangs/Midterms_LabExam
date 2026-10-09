@@ -9,3 +9,4 @@ if (!variable_global_exists("fade")) global.fade = 0
 global.game_over = false
 global.leaving = false
 global.restarting = false
+played_death_sound = false;
