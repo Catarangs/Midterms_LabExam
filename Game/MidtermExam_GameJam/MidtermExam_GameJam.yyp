@@ -61,6 +61,7 @@
     {"id":{"name":"Jump","path":"sounds/Jump/Jump.yy",},},
     {"id":{"name":"Slide","path":"sounds/Slide/Slide.yy",},},
     {"id":{"name":"Stagger","path":"sounds/Stagger/Stagger.yy",},},
+    {"id":{"name":"walking","path":"sounds/walking/walking.yy",},},
     {"id":{"name":"Room1_bg","path":"sprites/Room1_bg/Room1_bg.yy",},},
     {"id":{"name":"Room2_bg","path":"sprites/Room2_bg/Room2_bg.yy",},},
     {"id":{"name":"Room3_bg","path":"sprites/Room3_bg/Room3_bg.yy",},},

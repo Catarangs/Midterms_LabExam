@@ -29,7 +29,6 @@ if (global.leaving){
             global.restarting = false;
             global.leaving = false; 
             
-            // Reset death sound flag for the next run
             played_death_sound = false; 
             
             room_goto(room_first);
