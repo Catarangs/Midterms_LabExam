@@ -14,10 +14,10 @@ draw_set_alpha(1)
 draw_set_color(c_white)
 
 if (instance_exists(obj_Player)) {
-    var _bar_x = 20;
-    var _bar_y = 40;
-    var _bar_w = 120;
-    var _bar_h = 10;
+    var _bar_x = 105
+    var _bar_y = 70
+    var _bar_w = 150
+    var _bar_h = 30
     
     var _pct = obj_Player.stamina / obj_Player.stamina_max;
 

@@ -27,6 +27,7 @@ stamina_max = 100
 stamina = stamina_max
 stamina_drain = 2
 stamina_recharge = 0.4
+can_dash = true;
 
 // stamina boost modifier
 stamina_boost = 0
