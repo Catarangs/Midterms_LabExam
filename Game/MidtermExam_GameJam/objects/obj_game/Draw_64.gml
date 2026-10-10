@@ -5,7 +5,10 @@ if (!global.game_over){
 	draw_text(100, 16, "Distance: " + string(floor(global.distance)) + " m")
 	
 	if (instructions){
-		draw_text(100, 16, )
+		draw_text(900, 16, "Press Space/Up arrow/ W to Jump")
+		draw_text(900, 80, "Press S/Down arrow to Duck")
+		draw_text(900, 144, "D/ Right arrow to dash")
+
 	}
 	
 	if (instance_exists(obj_Player)) {

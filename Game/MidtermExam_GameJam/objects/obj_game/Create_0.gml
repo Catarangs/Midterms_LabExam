@@ -7,6 +7,8 @@ if (!variable_global_exists("scroll_spd") || room == room_first){
 if (!variable_global_exists("fade")) global.fade = 0
 
 instructions=true
+alarm[0]=60* 5
+
 global.game_over = false
 global.leaving = false
 global.restarting = false
