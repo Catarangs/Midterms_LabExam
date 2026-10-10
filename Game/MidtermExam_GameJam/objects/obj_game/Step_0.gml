@@ -13,13 +13,17 @@ if (!global.game_over && !global.leaving){
 }
 
 if (global.game_over && !played_death_sound) {
-    audio_play_sound(deathsound, 1, false);
+    audio_stop_sound(Sound9);
+    audio_play_sound(gameoversound, 1, false);
     played_death_sound = true;
+    
     global.scroll_spd = 0;
-	instance_create_depth(352,256,-100,obj_gameover)
+    
+    instance_create_depth(352, 256, -100, obj_gameover);
+    
     if (instance_exists(obj_Player)){
-	obj_Player.stamina_boost = 0;
-	}
+        obj_Player.stamina_boost = 0;
+    }
 }
 
 if (global.leaving){
@@ -34,6 +38,10 @@ if (global.leaving){
             global.leaving = false; 
             
             played_death_sound = false; 
+            
+            if (!audio_is_playing(Sound9)) {
+                audio_play_sound(Sound9, 1, true);
+            }
             
             room_goto(room_first);
         }
