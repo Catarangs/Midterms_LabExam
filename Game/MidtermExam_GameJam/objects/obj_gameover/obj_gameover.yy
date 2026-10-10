@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sensor",
+  "%Name":"obj_gameover",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sensor",
+  "name":"obj_gameover",
   "overriddenProperties":[],
   "parent":{
-    "name":"obstacles",
-    "path":"folders/Objects/obstacles.yy",
+    "name":"manager",
+    "path":"folders/Objects/manager.yy",
   },
-  "parentObjectId":{
-    "name":"par_scroll",
-    "path":"objects/par_scroll/par_scroll.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sensor",
-    "path":"sprites/spr_sensor/spr_sensor.yy",
+    "name":"spr_gameover",
+    "path":"sprites/spr_gameover/spr_gameover.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

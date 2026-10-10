@@ -16,7 +16,10 @@ if (global.game_over && !played_death_sound) {
     audio_play_sound(deathsound, 1, false);
     played_death_sound = true;
     global.scroll_spd = 0;
-    if (instance_exists(obj_Player)) obj_Player.stamina_boost = 0;
+	instance_create_depth(352,256,-100,obj_gameover)
+    if (instance_exists(obj_Player)){
+	obj_Player.stamina_boost = 0;
+	}
 }
 
 if (global.leaving){

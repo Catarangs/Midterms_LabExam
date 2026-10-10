@@ -12,8 +12,8 @@
     "path":"folders/Objects/obstacles.yy",
   },
   "parentObjectId":{
-    "name":"par_Obstacle",
-    "path":"objects/par_Obstacle/par_Obstacle.yy",
+    "name":"par_scroll",
+    "path":"objects/par_scroll/par_scroll.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
