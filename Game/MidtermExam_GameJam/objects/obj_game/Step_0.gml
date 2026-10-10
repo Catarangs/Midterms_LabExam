@@ -8,13 +8,13 @@ if (layer_exists("Background")) {
 }
 
 if (!global.game_over && !global.leaving){
-    global.scroll_spd = min(global.scroll_spd + 0.0006, 15);
+    global.scroll_spd = min(global.scroll_spd + 0.0009, 15);
     global.distance += effective_spd / 64;
 }
 
 if (global.game_over && !played_death_sound) {
     audio_stop_sound(Sound9);
-    audio_play_sound(gameoversound, 1, false);
+    audio_play_sound(Sound10, 1, false);
     played_death_sound = true;
     
     global.scroll_spd = 0;

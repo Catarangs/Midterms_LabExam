@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"gameoversound",
+  "%Name":"Sound10",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":216.37224,
   "exportDir":"",
-  "name":"gameoversound",
+  "name":"Sound10",
   "parent":{
     "name":"Music",
     "path":"folders/Music.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"gameoversound.wav",
-  "volume":0.1,
+  "soundFile":"Sound10.mp3",
+  "volume":0.05,
 }
