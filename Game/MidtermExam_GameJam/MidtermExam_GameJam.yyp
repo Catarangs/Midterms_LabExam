@@ -68,7 +68,6 @@
     {"id":{"name":"Room3_bg","path":"sprites/Room3_bg/Room3_bg.yy",},},
     {"id":{"name":"spr_BirdObstacle","path":"sprites/spr_BirdObstacle/spr_BirdObstacle.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
-    {"id":{"name":"spr_obstacle","path":"sprites/spr_obstacle/spr_obstacle.yy",},},
     {"id":{"name":"spr_obstacle1","path":"sprites/spr_obstacle1/spr_obstacle1.yy",},},
     {"id":{"name":"spr_Obstacle2","path":"sprites/spr_Obstacle2/spr_Obstacle2.yy",},},
     {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},},
