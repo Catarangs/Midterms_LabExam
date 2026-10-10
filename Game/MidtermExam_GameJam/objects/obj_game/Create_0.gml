@@ -6,6 +6,7 @@ if (!variable_global_exists("scroll_spd") || room == room_first){
 }
 if (!variable_global_exists("fade")) global.fade = 0
 
+instructions=true
 global.game_over = false
 global.leaving = false
 global.restarting = false

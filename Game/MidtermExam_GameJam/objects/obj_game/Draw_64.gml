@@ -4,6 +4,10 @@ draw_set_color(c_white)
 if (!global.game_over){
 	draw_text(100, 16, "Distance: " + string(floor(global.distance)) + " m")
 	
+	if (instructions){
+		draw_text(100, 16, )
+	}
+	
 	if (instance_exists(obj_Player)) {
     var _bar_x = 105
     var _bar_y = 70
