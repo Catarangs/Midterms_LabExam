@@ -18,8 +18,10 @@ sprinting = false
 //chase system
 home_x = x
 x_spd = 0
-recover_spd = 0
 hurt_timer = 0
+//recovery speed for both knockback and stamina
+recover_spd = 0
+sprecover_spd = 0
 
 // stamina system
 stamina_max = 100
