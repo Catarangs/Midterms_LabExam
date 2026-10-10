@@ -3,9 +3,9 @@ function scr_knockback(){
 
 	if (hurt_timer <= 0 && place_meeting(x, y, par_Obstacle)){
 		hurt_timer = 90
-		x_spd = -8
+		x_spd = -7.6
 		recover_spd = 0
-		sprecover_spd = 0 // Reset sprint recovery on hit
+		sprecover_spd = 0
 		global.scroll_spd = max(4, global.scroll_spd - 2)
 		
 		audio_play_sound(hit, 1, false)

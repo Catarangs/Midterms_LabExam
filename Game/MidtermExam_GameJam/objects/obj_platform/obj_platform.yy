@@ -8,10 +8,13 @@
   "name":"obj_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obstacles",
+    "path":"folders/Objects/obstacles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_Obstacle",
+    "path":"objects/par_Obstacle/par_Obstacle.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
