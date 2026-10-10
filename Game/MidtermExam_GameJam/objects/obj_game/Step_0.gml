@@ -1,10 +1,10 @@
-var effective_spd = global.scroll_spd;
-if (instance_exists(obj_Player)) {
+var effective_spd = global.game_over ? 0 : global.scroll_spd;
+if (!global.game_over && instance_exists(obj_Player)) {
     effective_spd += obj_Player.stamina_boost;
 }
 
 if (layer_exists("Background")) {
-    layer_hspeed("Background", -effective_spd * 0.5);
+    layer_hspeed("Background", global.game_over ? 0 : (-effective_spd * 0.5));
 }
 
 if (!global.game_over && !global.leaving){
@@ -12,10 +12,11 @@ if (!global.game_over && !global.leaving){
     global.distance += effective_spd / 64;
 }
 
-// 2. Play death sound EXACTLY ONCE on Game Over
 if (global.game_over && !played_death_sound) {
     audio_play_sound(deathsound, 1, false);
     played_death_sound = true;
+    
+    global.scroll_spd = 0;
 }
 
 if (global.leaving){
