@@ -12,7 +12,7 @@ if (!global.game_over && !global.leaving){
     global.distance += effective_spd / 64;
 }
 
-if (global.game_over && !played_death_sound) {
+if (global.game_over && audio_is_playing(Sound9)) {
     audio_stop_sound(Sound9);
     audio_play_sound(Sound10, 1, false);
     played_death_sound = true;
@@ -61,4 +61,8 @@ else {
 if (global.game_over && keyboard_check_pressed(ord("R")) && !global.leaving){
     global.leaving = true;
     global.restarting = true;
+	
+	if (audio_is_playing(Sound10)) {
+				audio_stop_sound(Sound10)
+            }
 }
